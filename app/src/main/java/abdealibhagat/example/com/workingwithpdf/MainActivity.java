@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button viewPDF;
+    private Newfile nf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
