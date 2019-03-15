@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        System.out.println("Modified by Saif");
 
         viewPDF = findViewById(R.id.viewPdf);
         viewPDF.setOnClickListener(new View.OnClickListener() {
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+	System.out.println("Vishwa");
     }
+
 
 }
